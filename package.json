@@ -1,0 +1,14 @@
+{
+  "name": "Forest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vildanguenay/forest.git",
+  "author": "Vildan Günay <vildan-guenay@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "scripts": {
+    "deploy": "yarn build && gh-pages -t -f -d build -b main"
+  }
+}
