@@ -7,8 +7,5 @@
   "license": "MIT",
   "dependencies": {
     "gh-pages": "^5.0.0"
-  },
-  "scripts": {
-    "deploy": "yarn build && gh-pages -t -f -d build -b main"
   }
 }
