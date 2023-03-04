@@ -7,7 +7,7 @@ body {
 }
 
 body {
-  background: #d8eacb;
+  background: #907b68;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -79,7 +79,7 @@ nav ul li a {
 }
 
 .forest-hero {
-  background: url('images/forest.jpg');
+  background: url('images/forestsea4.jpg');
   background-size: cover;
   color: white;
 }
@@ -159,7 +159,11 @@ ul.features li p,
 }
 
 .cabin-cta img {
-  width: 10px;
+  width: 13px;
+}
+
+.cabin-cta img svg {
+  fill: white;
 }
 
 .feature-container {
@@ -174,7 +178,6 @@ ul.features {
 
 ul.features li img {
   width: 40px;
-  height: 40px;
 }
 
 ul.features li p {
@@ -240,6 +243,10 @@ p.test-auth {
     padding: 1em;
   }
 
+  .cabin-img {
+    height: 13em;
+  }
+
   ul.nav {
     visibility: unset;
     opacity: 1;
@@ -273,16 +280,17 @@ p.test-auth {
   ul.featured-cabins {
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
     grid-gap: 3em;
+    background: rgba(255, 255, 255, 0.35);
   }
 }
 
 @media (min-width: 650px) {
   ul.features {
-    width: 90%;
+    width: 70%;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
     grid-gap: 3em;
   }
 }
@@ -319,7 +327,8 @@ p.test-auth {
   }
 
   ul.featured-cabins {
-    width: 70%;
+    width: 45%;
+    margin: auto;
   }
 
   .main-quote,
